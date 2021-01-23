@@ -1,0 +1,21 @@
+
+
+### Hello World
+GET http://localhost:8080/hello
+Accept: application/json
+
+### Get bird
+GET http://localhost:8080/bird
+
+### Post bird
+POST http://localhost:8080/bird
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Content-Type: application/x-www-form-urlencoded
+
+species=frank2&description=asdf2
+###
+
+
+
+
+

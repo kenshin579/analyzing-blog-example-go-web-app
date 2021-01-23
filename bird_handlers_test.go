@@ -46,6 +46,7 @@ func TestGetBirdsHandler(t *testing.T) {
 		t.Errorf("handler returned unexpected body: got %v want %v", actual, expected)
 	}
 }
+
 func TestCreateBirdsHandler(t *testing.T) {
 
 	birds = []Bird{
