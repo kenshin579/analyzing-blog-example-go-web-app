@@ -7,6 +7,7 @@ import (
 	"testing"
 )
 
+//이건 handler 메서드로만 테스트함
 func TestHandler(t *testing.T) {
 	//Here, we form a new HTTP request. This is the request that's going to be passed to our handler.
 	// The first argument is the method, the second argument is the route, and the third is the request body, which we don't have in this case.
